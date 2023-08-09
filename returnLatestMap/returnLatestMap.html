@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="returnMapsByID.css">
+    <link rel="stylesheet" type="text/css" href="returnLatestMap.css">
 </head>
 <body>
-    <h1 class="titleText">Returning Maps by ID</h1>
+    <h1 class="titleText">Returning Filtered Published Maps</h1>
     <div class="aboutFunc">
-        <h1>Q: What is returnMapsByID?</h1>
-        <h2>A: returnMapsByID is a function that can be used to return the information of maps published by the specified user.</h2>
+        <h1>Q: What is returnLatestMaps?</h1>
+        <h2>A: returnMapsByID is a function that can be used to return the information of the most recent published map.</h2>
     </div>
 
     <div class="codeStuff">
@@ -21,7 +21,7 @@
 
                             #Reminder -> These functions can only be used in async functions
                 async function onStart() {
-                                const varName = await bs.returnMapsByID(42069, 0)
+                                const varName = await bs.returnLatestMaps(true, "FIRST_PUBLISHED")
                                 #To see all the cool API json stuff you can use, write this
                         console.log(varName)
 }
@@ -31,8 +31,8 @@
 
     <div class="params">
         <h1>Parameters</h1>
-        <h2>1. userID -- The id of the user to search</h2>
-        <h2>2. page -- page number to search</h2>
+        <h2>1. automapper? -- Filter through maps that were made with automapping technology</h2>
+        <h2>2. sort? -- Way to filter through the maps</h2>
     </div>
     <h1 class="goHome"><a href="../index.html">Go Home</a></h1>
 </body>

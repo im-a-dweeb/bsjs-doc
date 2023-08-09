@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="searchMaps.css">
+</head>
+<body>
+    <h1 class="titleText">Search Maps</h1>
+    <div class="aboutFunc">
+        <h1>Q: What is searchMaps?</h1>
+        <h2>A: searchMaps is a function that can be used to search maps with identifiers.</h2>
+    </div>
+
+    <div class="codeStuff">
+        <h1>▼ How to use ▼</h1>
+        <pre class="codeBlock1">
+            <code>
+                const bs = require('bs.js');
+
+                            #Reminder -> These functions can only be used in async functions
+                async function onStart() {
+                                const varName = await bs.searchMaps(false, true, true, false, 100, 0, 5, 10, 60, 0, 3, 0, true, false, "Latest", 0, true)
+                                #To see all the cool API json stuff you can use, write this
+                        console.log(varName)
+}
+            </code> 
+        </pre>
+    </div>
+
+    <div class="params">
+        <h1>Parameters</h1>
+        <h2>1. Automapper - Filter Automapper</h2>
+        <h2>2. Chroma - Filter Chroma</h2>
+        <h2>3. Cinema - Filter Cinema</h2>
+        <h2>4. Curated - Filter Curated</h2>
+        <h2>5. MaxBPM - Filter MaxBPM</h2>
+        <h2>6. MaxDur - Filter Max Dur</h2>
+        <h2>7. MaxNPS - Filter Max NPS</h2>
+        <h2>8. MaxRating - Filter Max Ratings</h2>
+        <h2>9. MinBPM - Fitler min BPM</h2>
+        <h2>10. MinDur - Fitler min Dur</h2>
+        <h2>11. MinNPS - Fitler min NPS</h2>
+        <h2>12. MinRating - Fitler min Rating</h2>
+        <h2>13. Noodle - Fitler Noodle Extensions</h2>
+        <h2>14. Ranked - Fitler Ranked</h2>
+        <h2>15. SortOrder - Order to filter</h2>
+        <h2>16. verified - Filter verified.</h2>
+        <h2>17. Page - Page to look at.</h2>
+        <h2>18. FullSpread - No clue what this does</h2>
+        
+    </div>
+    <h1 class="goHome"><a href="../index.html">Go Home</a></h1>
+</body>
+</html>

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'FF Neuwelt';
+    src: local('FF Neuwelt Extra Bold'), local('FF-Neuwelt-Extra-Bold'),
+        url('Neuwelt-ExtraBold.woff2') format('woff2'),
+        url('Neuwelt-ExtraBold.woff') format('woff'),
+        url('Neuwelt-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    background-color: #0A0A16;
+    font-family: 'FF Neuwelt';
+    
+}
+
+.aboutFunc {
+    color: white;
+    background-color: darkred;
+    margin: auto;
+    border-color: blueviolet;
+    border-radius: 20px;
+    margin: 500px;
+    text-align: center; 
+    position: relative;
+    top: -450px;
+}
+    
+.codeStuff {
+    color: white;
+    background-color: darkred;
+    margin: auto;
+    border-radius: 20px;
+    margin: 500px;
+    text-align: center; 
+    position: relative;
+    top: -800px;
+    
+}
+
+.codeBlock1 {
+    background-color: black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow:auto !important;
+    padding: 10px;
+    white-space: pre;
+}
+
+.titleText {
+    color: white;
+    font-size: 69px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.params {
+    color: white;
+    background-color: darkred;
+    margin: auto;
+    border-radius: 20px;
+    margin: 500px;
+    text-align: center; 
+    position: relative;
+    top: -1200px;
+}
+
+.goHome {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    position:relative;
+    top: -1600px;
+}
