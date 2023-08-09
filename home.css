@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'FF Neuwelt';
+    src: local('FF Neuwelt Extra Bold'), local('FF-Neuwelt-Extra-Bold'),
+        url('Neuwelt-ExtraBold.woff2') format('woff2'),
+        url('Neuwelt-ExtraBold.woff') format('woff'),
+        url('Neuwelt-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    background-color: #0A0A16;
+    font-family: 'FF Neuwelt';
+    
+}
+
+.title1 {
+    color: white;
+    font-size: 69px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.directory {
+    background-color: white;
+    padding: 10px;
+    border: 5px solid green ;
+    border-radius: 10px;
+    margin: 500px;
+    text-align: center; 
+    position: relative;
+    top: -200px;
+}
+
+.directoryTitle1 {
+    text-align: center;
+    margin-top: 10px;
+}

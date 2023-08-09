@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'FF Neuwelt';
+    src: local('FF Neuwelt Extra Bold'), local('FF-Neuwelt-Extra-Bold'),
+        url('Neuwelt-ExtraBold.woff2') format('woff2'),
+        url('Neuwelt-ExtraBold.woff') format('woff'),
+        url('Neuwelt-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    background-color: #0A0A16;
+    font-family: 'FF Neuwelt';
+    
+}
+
+.title1 {
+    color: white;
+    font-size: 69px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.command1 {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 1px; /* Adjust padding to make it smaller */
+    margin: auto;
+    border-radius: 10px; /* Adjust border-radius for less rounded corners */
+    border: 1px solid #555;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    width: 10%; /* Adjust the width to make it narrower */
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-size: 8; /* Adjust font size for a smaller text */
+    line-height: 0.2; /* Adjust line height for compactness */
+   
+    
+}
+
+.block1 {
+    display: block;
+    font-size: 10px;
+}
+
+.tut1 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.tut2 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.code1 {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 1px; /* Adjust padding to make it smaller */
+    margin: auto;
+    border-radius: 10px; /* Adjust border-radius for less rounded corners */
+    border: 1px solid #555;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    width: 10%; /* Adjust the width to make it narrower */
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-size: 8; /* Adjust font size for a smaller text */
+    line-height: 0.2; /* Adjust line height for compactness */
+}
+
+.end1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.goHome {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
